@@ -1,25 +1,33 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
 
-  <body>
-    <div class="d-flex flex-column align-content-center justify-content-center" style="width:100vw; height:100vh;">
-      <div style="padding-bottom:50vh ;">
-        <h1 class="display-2 text-center">まちなかアート</h1>
-      </div>
-      <div class="d-grid gap-4 col-6 mx-auto">
-        <button class="btn btn-primary" type="button">Button</button>
-        <button class="btn btn-primary" type="button">Button</button>
-      </div>
+    .center {
+      padding: 5vh 0;
+      border: 3px solid green;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="d-flex flex-column align-content-center justify-content-center" style="width:100vw; height:100vh;">
+    <div style="padding-bottom:40vh ;">
+      <h1 class="display-2 text-center">まちなかアート</h1>
     </div>
-  </body>
+    <div class="d-grid gap-5 col-10 mx-auto" style="border: 1px solid;">
+      <a class="btn btn-primary btn-h center" type="button" style="background-color: red;"><h1 style="font-size: 400%;">Button</h1></a>
+      <a class="btn btn-primary" type="button">Button</a>
+    </div>
+  </div>
+</body>
 
 </html>
