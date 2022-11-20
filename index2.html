@@ -2,56 +2,34 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
-  <title>testing 2</title>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <style type="text/css">
-    .main {
-  border: 1px solid #4287f5;
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>testing 2</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Title of the document</title>
+    <style>
+        main {
+            border: 1px solid blue;
+            height: 100vh;
+            display: flex;
+            /* defines flexbox */
+            flex-direction: column;
+            /* top to bottom */
+            justify-content: space-between;
+            /* first item at start, last at end */
+        }
 
-.column1 {
-  color: #4287f5;
-  text-align: center;
-}
-
-.column2 {
-  text-align: center;
-  align-content: center;
-}
-
-.bottom {
-  position: fixed;
-  bottom: 50vh;
-  left: 0;
-  align-content: center;
-}
-
-#top{
-    position: absolute;
-    top: 30vh;
-    text-align: center;
-}
-  </style>
+        h2 {
+            margin: 0;
+        }
+    </style>
 
 </head>
 
 <body>
-    <div class="main">
-
-
-      <div id="top" class="column1">
-        <h2>W3docs</h2>
-        </div>
-      </div>
-
-      <div class="bottom">
-       hi
-       </div>
+    <main>
+      <h2>Header title</h2> Some text aligns to the bottom
+    </main>
   </body>
